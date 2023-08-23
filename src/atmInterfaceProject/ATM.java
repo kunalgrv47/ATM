@@ -233,7 +233,7 @@ public class ATM {
 		String name = s.nextLine();
 
 		// Validating the name criteria
-		if (!name.matches("[a-zA-Z]+(\\s[a-zA-Z]+)*")) {
+		if (!name.matches("[a-zA-Z]+[a-zA-Z0-9]+(\\s[a-zA-Z]+)*")) {
 			System.out.println("==============================================================================================");
 			System.out.println("Invalid name format. Please use only letters and spaces and name cannot start or end with space.");
 			System.out.println("==============================================================================================");
