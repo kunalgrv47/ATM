@@ -19,7 +19,7 @@ This is a Java application that simulates an ATM interface. It allows users to p
 
 ## Getting Started
 
-1. Clone this repository to your local machine.
+1. Clone this repository to your local machine.   (GitHub Repo Link: https://github.com/kunalgrv47/ATM-Simulator-App.git )
 2. Import the project into your preferred Java IDE (e.g., Eclipse).
 3. Set up the required external libraries for JDBC and MySQL.
 4. Configure the database connection in the `DatabaseConnection` class.
