@@ -8,7 +8,6 @@ This is a Java application that simulates an ATM interface. It allows users to p
 - Balance Enquiry
 - Deposit and Withdrawal
 - Transaction History
-- Password Encryption for Security
 - MySQL Database Integration
 
 ## Prerequisites
