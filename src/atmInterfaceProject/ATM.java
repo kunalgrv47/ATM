@@ -18,7 +18,7 @@ public class ATM {
 	public void start() {
 
 		while (true) {
-			
+
 			System.out.println("--------WELCOME TO ATM INTERFACE---------");
 			System.out.println("************************************************");
 			System.out.println("1. Existing User");
@@ -26,7 +26,7 @@ public class ATM {
 			System.out.println("3. Exit");
 			System.out.println("************************************************");
 			System.out.print("Enter your choice: ");
-			
+
 			String choice = s.nextLine();
 
 			switch (choice) {
@@ -212,7 +212,6 @@ public class ATM {
 		System.out.println();
 	}
 
-	// Function to implement Balance Enquery functionality
 
 	//Function to check balance for the user
 	private static void balanceEnquiry(User user) {
@@ -223,7 +222,6 @@ public class ATM {
 
 	}
 
-	//Function to create New User
 
 	//Function to create New User
 	private void createUser() {
